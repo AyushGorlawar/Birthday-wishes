@@ -1,0 +1,33 @@
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+body {
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+#start-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0 0 0 / 97%);	
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+}
+#start-button {
+    font-size: 24px;
+    padding: 15px 30px;
+}
